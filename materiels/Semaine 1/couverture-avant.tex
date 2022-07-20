@@ -1,0 +1,36 @@
+\begingroup
+\TPGrid{16}{64}
+\textblockorigin{0mm}{0mm}
+\setlength{\parindent}{0mm}
+\setlength{\imageheight}{54.9191919\TPVertModule}
+\setlength{\logoheight}{4\TPVertModule}
+\setlength{\bandeorwidth}{3.3\logoheight}
+\setlength{\banderougewidth}{\paperwidth}
+\addtolength{\banderougewidth}{-\bandeorwidth}
+\setlength{\bandeorheight}{\TPVertModule}
+\setlength{\banderougeheight}{\TPVertModule}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\TPHorizModule}
+
+\def\titlefmt{%
+	\bfseries\fontsize{24}{24}\selectfont%
+	BASES DE DONNÉES AVANCÉES\\Semaine 1\par}
+
+
+\def\david{%
+	\OverpassLight\fontsize{5}{5}\selectfont%
+	\bfseries\textcolor{black}{David Beauchemin\\david.beauchemin.5@ulaval.ca}}
+
+\begin{frame}[plain]
+	%% bandeau identitaire
+	\begin{textblock*}{\paperwidth}[0,1](0mm,56\TPVertModule)
+		\textcolor{rouge}{\rule{\banderougewidth}{\banderougeheight}}%
+		\textcolor{bleu}{\rule{\bandeorwidth}{\bandeorheight}}
+	\end{textblock*}
+	
+	%% titre
+	\begin{textblock*}{15\TPHorizModule}(0.7\TPHorizModule,17\TPVertModule)
+		\textcolor[rgb]{0.13,0.13,0.13}{\titlefmt}
+	\end{textblock*}
+\end{frame}
+\endgroup

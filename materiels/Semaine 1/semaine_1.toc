@@ -1,0 +1,5 @@
+\babel@toc {french}{}
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Présentation du cours}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Présentations}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Plan de cours}{5}{0}{1}
